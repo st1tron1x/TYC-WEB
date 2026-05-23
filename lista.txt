@@ -1,0 +1,25 @@
+ El volumen de la unidad F es Nuevo vol
+ El n£mero de serie del volumen es: ACFA-D4AA
+
+ Directorio de F:\projects\tyc-web
+
+22/05/2026  10:06 a.ÿm.    <DIR>          .
+22/05/2026  09:42 a.ÿm.    <DIR>          ..
+22/05/2026  09:48 a.ÿm.               480 .gitignore
+22/05/2026  09:52 a.ÿm.    <DIR>          .next
+22/05/2026  09:50 a.ÿm.               327 AGENTS.md
+22/05/2026  09:49 a.ÿm.    <DIR>          app
+22/05/2026  09:50 a.ÿm.                11 CLAUDE.md
+22/05/2026  09:48 a.ÿm.               465 eslint.config.mjs
+22/05/2026  10:06 a.ÿm.                 0 lista.txt
+22/05/2026  09:52 a.ÿm.               251 next-env.d.ts
+22/05/2026  09:48 a.ÿm.               133 next.config.ts
+22/05/2026  09:49 a.ÿm.    <DIR>          node_modules
+22/05/2026  09:49 a.ÿm.           232.080 package-lock.json
+22/05/2026  09:49 a.ÿm.               530 package.json
+22/05/2026  09:48 a.ÿm.                94 postcss.config.mjs
+22/05/2026  09:49 a.ÿm.    <DIR>          public
+22/05/2026  09:48 a.ÿm.             1.450 README.md
+22/05/2026  09:49 a.ÿm.               666 tsconfig.json
+              12 archivos        236.487 bytes
+               6 dirs  499.420.483.584 bytes libres
