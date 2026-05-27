@@ -17,8 +17,22 @@ export default function TechnologySection() {
           </p>
         </div>
 
-        <div className="rounded-3xl border border-white/10 bg-white/5 p-10 backdrop-blur-xl">
-          <div className="h-80 rounded-2xl bg-gradient-to-br from-blue-500/30 to-cyan-400/10" />
+        <div className="rounded-3xl border border-white/10 bg-white/5 p-4 backdrop-blur-xl">
+
+          <div className="overflow-hidden rounded-2xl">
+
+            <video
+              autoPlay
+              muted
+              loop
+              playsInline
+              className="h-80 w-full object-cover transition duration-700 hover:scale-105"
+            >
+              <source src="/videos/logistics.mp4" type="video/mp4" />
+            </video>
+
+          </div>
+
         </div>
 
       </div>
