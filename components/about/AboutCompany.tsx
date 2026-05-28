@@ -15,7 +15,7 @@ export default function AboutCompany() {
           </span>
 
           <h2 className="font-playfair mt-6 text-4xl font-semibold leading-tight text-white md:text-5xl">
-            Más de 18 años impulsando operaciones de comercio exterior en Colombia
+            Más de 18 años impulsando operaciones de{" "} <span className="text-blue-400">comercio exterior</span> en Colombia
           </h2>
 
           <p className="mt-8 text-lg leading-relaxed text-gray-300">
