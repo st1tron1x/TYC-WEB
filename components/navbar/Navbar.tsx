@@ -27,11 +27,10 @@ export default function Navbar() {
   return (
 
     <header
-      className={`fixed top-0 z-50 w-full transition-all duration-500 ${
-        scrolled
-          ? "bg-[#071120]/90 backdrop-blur-xl shadow-lg"
-          : "bg-transparent"
-      }`}
+      className={`fixed top-0 z-50 w-full transition-all duration-500 ${scrolled
+        ? "bg-[#071120]/90 backdrop-blur-xl shadow-lg"
+        : "bg-transparent"
+        }`}
     >
 
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
@@ -51,40 +50,40 @@ export default function Navbar() {
         {/* DESKTOP MENU */}
         <nav className="hidden items-center gap-10 md:flex">
 
-          <a
-            href="#"
+          <Link
+            href="/"
             className="text-sm font-medium text-white transition hover:text-blue-400"
           >
             Inicio
-          </a>
+          </Link>
 
-          <a
-            href="#"
+          <Link
+            href="/nosotros"
             className="text-sm font-medium text-white transition hover:text-blue-400"
           >
             Nosotros
-          </a>
+          </Link>
 
-          <a
-            href="#"
+          <Link
+            href="/servicios"
             className="text-sm font-medium text-white transition hover:text-blue-400"
           >
             Servicios
-          </a>
+          </Link>
 
-          <a
-            href="#"
+          <Link
+            href="/tecnologia"
             className="text-sm font-medium text-white transition hover:text-blue-400"
           >
             Tecnología
-          </a>
+          </Link>
 
-          <a
-            href="#"
+          <Link
+            href="/contacto"
             className="text-sm font-medium text-white transition hover:text-blue-400"
           >
             Contacto
-          </a>
+          </Link>
 
         </nav>
 
@@ -114,25 +113,28 @@ export default function Navbar() {
 
           <nav className="flex flex-col gap-6 px-6 py-8">
 
-            <a href="#" className="text-lg text-white">
+            <Link
+              href="/"
+              className="text-sm font-medium text-white transition hover:text-blue-400"
+            >
               Inicio
-            </a>
+            </Link>
 
-            <a href="#" className="text-lg text-white">
+            <Link href="/nosotros" className="text-lg text-white">
               Nosotros
-            </a>
+            </Link>
 
-            <a href="#" className="text-lg text-white">
+            <Link href="#" className="text-lg text-white">
               Servicios
-            </a>
+            </Link>
 
-            <a href="#" className="text-lg text-white">
+            <Link href="#" className="text-lg text-white">
               Tecnología
-            </a>
+            </Link>
 
-            <a href="#" className="text-lg text-white">
+            <Link href="#" className="text-lg text-white">
               Contacto
-            </a>
+            </Link>
 
             <button className="mt-4 rounded-xl bg-blue-600 px-6 py-4 text-white">
               Cotizar ahora
