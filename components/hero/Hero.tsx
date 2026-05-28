@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Hero() {
     return (
         <section className="relative flex min-h-screen items-center overflow-hidden">
@@ -44,9 +46,13 @@ export default function Hero() {
                 {/* BUTTONS */}
                 <div className="mt-10 flex flex-col gap-4 sm:flex-row">
 
-                    <button className="rounded-2xl bg-blue-600 px-8 py-4 text-lg font-semibold text-white transition hover:bg-blue-500">
+                    <Link
+                        href="https://wa.me/573113979850?text=Hola%20TyC%20Asociados,%20quiero%20solicitar%20asesoría%20sobre%20comercio%20exterior."
+                        target="_blank"
+                        className="rounded-2xl bg-blue-600 px-8 py-4 text-lg font-semibold text-white transition duration-300 hover:scale-105 hover:bg-blue-500"
+                    >
                         Solicitar asesoría
-                    </button>
+                    </Link>
 
                     <button className="rounded-2xl border border-white/20 bg-white/5 px-8 py-4 text-lg font-semibold text-white backdrop-blur-md transition hover:bg-white/10">
                         Conocer servicios

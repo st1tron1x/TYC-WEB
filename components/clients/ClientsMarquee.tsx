@@ -1,6 +1,7 @@
 "use client";
 
 const clients = [
+  "MEGATOYS",
   "DHL",
   "Maersk",
   "Samsung",
