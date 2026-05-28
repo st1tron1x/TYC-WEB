@@ -59,14 +59,14 @@ export default function AboutLocations() {
           {/* MAP */}
           <div className="relative flex justify-center">
 
-            <div className="absolute h-[350px] w-[350px] rounded-full bg-blue-500/10 blur-[120px]" />
+            <div className="absolute h-[500px] w-[500px] rounded-full bg-blue-500/20 blur-[140px]" />
 
             <Image
               src="/colombia-map.png"
               alt="Mapa Colombia"
-              width={500}
-              height={700}
-              className="relative z-10 h-auto w-auto opacity-90"
+              width={900}
+              height={1200}
+              className="relative z-10 h-[700px] w-auto object-contain opacity-90 drop-shadow-[0_0_40px_rgba(59,130,246,0.35)]"
             />
 
           </div>
