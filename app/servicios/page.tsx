@@ -1,7 +1,14 @@
+import ServicesHero from "@/components/services/ServicesHero";
+
 export default function ServiciosPage() {
+
   return (
-    <div>
-      <h1>Servicios</h1>
-    </div>
+
+    <main className="bg-[#071120] text-white">
+
+      <ServicesHero />
+
+    </main>
+
   );
 }
